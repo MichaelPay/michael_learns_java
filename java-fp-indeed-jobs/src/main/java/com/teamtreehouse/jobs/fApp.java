@@ -25,7 +25,10 @@ public class fApp {
 
   private static void explore(List<Job> jobs) {
     // Your amazing code below...
-//    jobs.stream().filter(job -> );
+    jobs.stream()
+            .filter(job -> job.getCity().equals("OR"))
+            .filter(job -> job.getCity().equals("Portland"))
+            .forEach(System.out::println);
   }
 
   private static void printPortlandJobsImperatively(List<Job> jobs) {
