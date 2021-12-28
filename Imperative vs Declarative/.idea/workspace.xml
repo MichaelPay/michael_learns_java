@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6404e8b-963e-4db2-a2ba-3ca0c0e971dc" name="Changes" comment="https://teamtreehouse.com/library/lambdas">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/michaelpay/mplearns_fp/Main.java" afterDir="false" />
+    <list default="true" id="c6404e8b-963e-4db2-a2ba-3ca0c0e971dc" name="Changes" comment="https://teamtreehouse.com/library/introduction-to-functional-programming/javas-functional-toolset/using-foreach">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lcc-java-fp-printer-1.1.0/src/main/java/com/teamtreehouse/challenges/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lcc-java-fp-printer-1.1.0/src/main/java/com/teamtreehouse/challenges/Printer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +107,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640680184401</updated>
-      <workItem from="1640680186648" duration="1317000" />
+      <workItem from="1640680186648" duration="2194000" />
     </task>
     <task id="LOCAL-00001" summary="https://teamtreehouse.com/library/lambdas">
       <created>1640681443729</created>
@@ -116,7 +116,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640681443729</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="https://teamtreehouse.com/library/lambdas">
+      <created>1640681510004</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1640681510004</updated>
+    </task>
+    <task id="LOCAL-00003" summary="https://teamtreehouse.com/library/introduction-to-functional-programming/javas-functional-toolset/using-foreach">
+      <created>1640681711668</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1640681711668</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +149,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="https://teamtreehouse.com/library/lambdas" />
-    <option name="LAST_COMMIT_MESSAGE" value="https://teamtreehouse.com/library/lambdas" />
+    <MESSAGE value="https://teamtreehouse.com/library/introduction-to-functional-programming/javas-functional-toolset/using-foreach" />
+    <option name="LAST_COMMIT_MESSAGE" value="https://teamtreehouse.com/library/introduction-to-functional-programming/javas-functional-toolset/using-foreach" />
   </component>
 </project>
