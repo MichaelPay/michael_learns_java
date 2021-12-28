@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/20211105 Refresher/20211105 Refresher.iml" filepath="$PROJECT_DIR$/20211105 Refresher/20211105 Refresher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/Inheritance/Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Michael Learns Java/Michael Learns Java.iml" filepath="$PROJECT_DIR$/Michael Learns Java/Michael Learns Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_vendingmachine/java_vendingmachine.iml" filepath="$PROJECT_DIR$/java_vendingmachine/java_vendingmachine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/justplayin/justplayin.iml" filepath="$PROJECT_DIR$/justplayin/justplayin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maps/maps.iml" filepath="$PROJECT_DIR$/maps/maps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/michael_learns_java.iml" filepath="$PROJECT_DIR$/.idea/michael_learns_java.iml" />
+    </modules>
+  </component>
+</project>
