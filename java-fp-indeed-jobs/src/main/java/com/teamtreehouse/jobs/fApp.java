@@ -28,10 +28,12 @@ public class fApp {
 
   private static void explore(List<Job> jobs) {
     // Your amazing code below...
-    System.out.printf("Imperatively:\n");
-    getThreeJuniorJobsImperatively(jobs).forEach(System.out::println);
-    System.out.println("Declaratively:");
-    getThreeJuniorJobsSteam(jobs).forEach(System.out::println);
+//    System.out.printf("Imperatively:\n");
+//    getThreeJuniorJobsImperatively(jobs).forEach(System.out::println);
+//    System.out.println("Declaratively:");
+//    getThreeJuniorJobsSteam(jobs).forEach(System.out::println);
+//    getThreeCaptionsImperatively(jobs).forEach(System.out::println);
+    getThreeCaptionsSteam(jobs).forEach(System.out::println);
 //    filters jobs declaratively using stream
 //    jobs.stream()
 //            .filter(job -> job.getCity().equals("OR"))
@@ -59,6 +61,14 @@ public class fApp {
 
     }
 
+
+  private static List<String> getThreeCaptionsSteam (List<Job> jobs) {
+    return jobs.stream()
+            .filter(fApp::isJuniorJob)
+            .map(Job::getCaption)
+            .limit(3).collect(Collectors.toList());
+  }
+
     private static List<Job> getThreeJuniorJobsImperatively (List < Job > jobs) {
       List<Job> juniorJobs = new ArrayList<>();
       for (Job job : jobs) {
@@ -71,4 +81,17 @@ public class fApp {
       }
       return juniorJobs;
     }
+  private static List<String> getThreeCaptionsImperatively (List < Job > jobs) {
+    List<String> captions = new ArrayList<>();
+    for (Job job : jobs) {
+      if (isJuniorJob(job)) {
+        captions.add(job.getCaption());
+        if (captions.size() >= 3) {
+          break;
+        }
+      }
+    }
+    return captions;
+  }
+
   }
