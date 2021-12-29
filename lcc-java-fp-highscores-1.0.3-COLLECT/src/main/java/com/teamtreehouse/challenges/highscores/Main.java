@@ -6,6 +6,7 @@ import com.teamtreehouse.challenges.highscores.service.ScoreService;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Main {
 
@@ -40,7 +41,11 @@ public class Main {
     // TODO: Filter the scores stream to be of platform 'Nintendo Entertainment System'
     // TODO: Limit it to 3 scores
     // TODO: Return a newly collected list using the collect method
-    return Collections.emptyList();
+
+    return   scores.stream()
+      .filter(score -> score.getPlatform().equals("Nintendo Entertainment System"))
+      .limit(3)
+      .collect(Collectors.toList());
   }
 
   public static void printBurgerTimeScoresImperatively(List<Score> scores) {
