@@ -42,7 +42,11 @@ public class Main {
     // TODO: Map to the player's name
     // TODO: Limit to 5
     // TODO: And collect those strings and return them
-    return Collections.emptyList();
+
+    return scores.stream().filter(score -> score.getAmount() > 10000)
+      .map(Score::getPlayer)
+      .limit(5)
+      .collect(Collectors.toList());
   }
 
 
